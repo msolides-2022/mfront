@@ -1,4 +1,4 @@
-FROM https://hub.docker.com/repository/docker/thelfer/tfel
+FROM thelfer/tfel:4.1.0-dev
 
 # create user with a home directory
 ARG NB_USER

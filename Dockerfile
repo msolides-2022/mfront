@@ -10,7 +10,7 @@ ENV HOME /home/${NB_USER}
 WORKDIR ${HOME}
 COPY . ${HOME}
 USER root
-RUN python -m ensurepip --upgrade
+RUN python3 -m ensurepip --upgrade
 RUN python3 -m pip install --no-cache-dir notebook jupyterlab
 RUN chown -R ${NB_UID} ${HOME}
 

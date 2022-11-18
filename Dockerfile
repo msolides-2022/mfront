@@ -1,4 +1,4 @@
-FROM thelfer/tfel:4.1.0-dev-v2
+FROM thelfer/tfel:4.1.0-dev-v3
 
 # create user with a home directory
 ARG NB_USER
